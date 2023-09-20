@@ -1,0 +1,9 @@
+{
+    "python.testing.pytestArgs": [
+        "LDA"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "jupyter.jupyterServerType": "local",
+    "python.terminal.activateEnvironment": false
+}
