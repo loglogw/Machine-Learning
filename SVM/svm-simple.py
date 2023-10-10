@@ -263,7 +263,7 @@ def get_w(dataMat, labelMat, alphas):
 
 
 if __name__ == '__main__':
-	dataMat, labelMat = loadDataSet('testSet.txt')
+	dataMat, labelMat = loadDataSet('SVM/testSet.txt')
 	b,alphas = smoSimple(dataMat, labelMat, 0.6, 0.001, 40)
 	w = get_w(dataMat, labelMat, alphas)
 	showClassifer(dataMat, w, b)
